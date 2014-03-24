@@ -91,7 +91,7 @@ public class GridPositionDistribution {
 	 * @return
 	 */
 	public boolean isObstructed(int _x, int _y) {
-		return m_grid[_y][_x] == OBSTRUCTED_POINT;
+			return m_grid[_y][_x] == OBSTRUCTED_POINT;
 	}
 
 	/**

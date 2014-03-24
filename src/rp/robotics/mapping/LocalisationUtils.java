@@ -152,9 +152,9 @@ public class LocalisationUtils {
 
 	public static GridMap create2014Map1() {
 
-		float height = 238;
+		float height = 241f;
 
-		float width = 366;
+		float width = 324f;
 
 		// junction numbers
 
@@ -162,7 +162,7 @@ public class LocalisationUtils {
 
 		int yJunctions = 7;
 
-		int junctionSeparation = 30; // 30.5
+		int junctionSeparation = 30; // (avg over 5 junctions: 30.28)
 
 		// position of 0,0 junction wrt to top left of map
 

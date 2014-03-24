@@ -16,7 +16,7 @@ public enum Heading {
 	MINUS_X,
 	// Heading along the negative y axis
 	MINUS_Y;
-
+	
 	/**
 	 * Gets the degree orientation for a given enum value.
 	 * 
@@ -38,7 +38,7 @@ public enum Heading {
 			assert false : "Unknown value for enumeration";
 		}
 		return heading;
-
 	}
+
 
 }
